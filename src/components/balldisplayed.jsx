@@ -116,7 +116,7 @@ const Balldisplay = (props) => {
         }
 
         let mounted = true;
-        const cacheName = 'abyssinia-audio-cache-v1';
+        const cacheName = 'Nile-audio-cache-v1';
         const urls = Object.values(audioMap);
         // Open cache and ensure all audio URLs are cached. Then create blob URLs for quick playback.
         (async () => {
@@ -285,7 +285,6 @@ const Balldisplay = (props) => {
         intervalRef.current = setInterval(pickRandomBall, 3000);
         setInitialized(true);
         deductAmount()
-
     };
 
 
@@ -642,7 +641,7 @@ const Balldisplay = (props) => {
                 }} style={{ backgroundColor: 'var(--surface)', color: 'var(--accent)', border: 'none', borderRadius: 8, padding: '8px 18px', fontSize: 16, marginRight: 8 }}>Go back</button>
 
                 <div style={{ overflowY: 'hidden', fontSize: 32, fontWeight: 700, color: "var(--text)", marginBottom: 20, textAlign: "center", letterSpacing: 2 }}>
-                    🎱lucky-Bingo Ball Draw 🎱
+                    🎱Nile-Bingo Ball Draw 🎱
                 </div>
                 <div style={{ display: 'flex', flexWrap: "wrap", alignItems: 'flex-start', gap: 40, justifyContent: "center", }}>
                     {/* small transient toast when audio caching completes */}
@@ -959,7 +958,7 @@ const Balldisplay = (props) => {
             }}
         >
 
-            <h1 style={{ color: 'var(--text)', fontSize: largeFontSize, position: 'relative', left: 0 }}>abyssinia-Bingo</h1>
+            <h1 style={{ color: 'var(--text)', fontSize: largeFontSize, position: 'relative', left: 0 }}>Nile-Bingo</h1>
             {/* Modal for entering card number */}
             <AnimatePresence>
                 {showModal && (

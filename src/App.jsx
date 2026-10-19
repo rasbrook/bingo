@@ -19,7 +19,7 @@ function App() {
     <BrowserRouter >
       {isAuthenticated && (
         <Header
-          name='Lucky bet'
+          name='Nile bet'
           CompanyColor={maincolor}
           pages={['Bingo', 'Profile']} />
       )}
@@ -41,7 +41,7 @@ function App() {
             <Route path="/Aviator" element={<Aviator />} />
             <Route path="/aviator" element={<Aviator />} />
             <Route path="/blackjack" element={<Blackjack />} />
-            <Route path="/luckychicken" element={<LuckyChicken />} />
+            <Route path="/Nilechicken" element={<NileChicken />} />
             <Route path="/plinko" element={<Plinko />} />*/}
           </>
         )}
